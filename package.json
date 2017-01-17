@@ -21,7 +21,7 @@
     "url": "https://github.com/TMJPEngineering/angular-pagination/issues"
   },
   "homepage": "https://github.com/TMJPEngineering/angular-pagination",
-  "devDependencies": {
+  "dependencies": {
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",
     "grunt-contrib-concat": "^1.0.1",
