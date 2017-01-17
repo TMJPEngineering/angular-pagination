@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    angular.module('example', [
+    var app = angular.module('example', [
         'tmjPagination'
     ]);
 })();
