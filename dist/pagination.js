@@ -26,7 +26,7 @@
                       '<nav>' +
                         '<ul class="pagination">' +
                           '<li ng-class="{disabled: pc.values.prev_page_url === null}"><a href="" ng-click="pc.pager(pc.values.prev_page_url)" aria-label="Previous"><span aria-hidden="true">Previous</span></a></li>' +
-                          '<li ng-repeat="i in pc.getNumber(pc.values.last_page) track by $index" ng-class="{disabled: pc.values.current_page === $index + 1}"><a href="" ng-click="pc.changePage($index + 1)" ng-bind="{{ $index + 1 }}"></a></li>' +
+                          '<li ng-repeat="i in pc.getNumber(pc.values.last_page) track by $index" ng-class="{active: pc.values.current_page === $index + 1}"><a href="" ng-click="pc.changePage($index + 1)" ng-bind="{{ $index + 1 }}"></li>' +
                           '<li ng-class="{disabled: pc.values.next_page_url === null}"><a href="" ng-click="pc.pager(pc.values.next_page_url)" aria-label="Next"><span aria-hidden="true">Next</span></a></li>' +
                         '</ul>' +
                       '</nav>'
