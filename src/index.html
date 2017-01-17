@@ -9,7 +9,24 @@
   <div class="container">
     <h1>Angular Pagination</h1>
 
-    <pagination></pagination>
+    <div class="row">
+      <table class="table table-bordered table-hovered">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="employee in employees.data">
+            <td ng-bind="employee.user.id"></td>
+            <td ng-bind="employee.user.name"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <pagination limit="10" route="http://localhost/harps-keme/public/api/employee" values="employees"></pagination>
+    </div>
   </div>
   <script src="../bower_components/angular/angular.min.js"></script>
   <script src="app.js"></script>
