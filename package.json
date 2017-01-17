@@ -1,8 +1,8 @@
 {
-  "name": "angular-pagination",
+  "name": "tmj-pagination",
   "version": "1.0.0",
   "description": "A pagination directive for AngularJS",
-  "main": "index.js",
+  "main": "dist/pagination.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,14 +11,16 @@
     "url": "git+https://github.com/TMJPEngineering/angular-pagination.git"
   },
   "keywords": [
-    "Angular"
+    "Angular",
+    "Pagination",
+    "Directive"
   ],
   "author": "John Conrad Lumacad",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TMJPEngineering/angular-pagination/issues"
   },
-  "homepage": "https://github.com/TMJPEngineering/angular-pagination#readme",
+  "homepage": "https://github.com/TMJPEngineering/angular-pagination",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",
