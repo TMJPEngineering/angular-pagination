@@ -1,0 +1,29 @@
+{
+  "name": "angular-pagination",
+  "version": "1.0.0",
+  "description": "A pagination directive for AngularJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TMJPEngineering/angular-pagination.git"
+  },
+  "keywords": [
+    "Angular"
+  ],
+  "author": "John Conrad Lumacad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TMJPEngineering/angular-pagination/issues"
+  },
+  "homepage": "https://github.com/TMJPEngineering/angular-pagination#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
