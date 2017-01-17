@@ -1,6 +1,9 @@
 ## Angular Pagination
-[![CDN](https://img.shields.io/badge/cdn-rawgit-brightgreen.svg)](https://cdn.rawgit.com/TMJPEngineering/angular-pagination/feature-pagination/dist/pagination.min.js)
+[![npm version](https://img.shields.io/npm/v/tmj-pagination.svg)](https://www.npmjs.org/package/tmj-pagination)
+[![CDN](https://img.shields.io/badge/cdn-rawgit-brightgreen.svg)](https://cdn.rawgit.com/TMJPEngineering/angular-pagination/master/dist/pagination.min.js)
+
 ---
+
 ## Description
 Renders a pagination powered by Bootstrap
 
