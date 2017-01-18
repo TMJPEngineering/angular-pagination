@@ -5,7 +5,14 @@
 ---
 
 ## Description
+
 Renders a pagination powered by Bootstrap
+
+## Installation
+
+```
+npm install tmj-pagination
+```
 
 ## Usage
 
