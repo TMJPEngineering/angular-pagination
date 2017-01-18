@@ -3,3 +3,4 @@ core/
 src/pagination/
 bower_components/
 node_modules/
+*.log
