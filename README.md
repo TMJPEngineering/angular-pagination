@@ -24,6 +24,8 @@ npm install tmj-pagination
 </pagination>
 ```
 
+**Note: This route supports laravel pagination. Refer to this [link](https://laravel.com/docs/5.2/pagination#paginating-eloquent-results).**
+
 ## Parameters
 
 | **Name** | **Type** | **Description**                      | **Default** |
