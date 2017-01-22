@@ -1,6 +1,6 @@
 {
   "name": "tmj-pagination",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A pagination directive for AngularJS",
   "main": "dist/pagination.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "url": "https://github.com/TMJPEngineering/angular-pagination/issues"
   },
   "homepage": "https://github.com/TMJPEngineering/angular-pagination",
-  "dependencies": {
+  "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-browserify": "^5.0.0",
     "grunt-contrib-concat": "^1.0.1",
